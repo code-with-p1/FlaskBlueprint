@@ -16,5 +16,7 @@ Visit http://127.0.0.1:5000/blueprint/hello to access flask blueprint API endpoi
 # Project Structure
 
 **run.py** : To run flask server.
+
 **app/**init**py** : File contains code related with register flask blueprint.
+
 **app/views.py** : File contains code related with defining blueprint.
