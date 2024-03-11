@@ -3,9 +3,9 @@ from app import create_app
 # Calling create_app method
 app = create_app()
 
-@app.route('/api')
+@app.route('/')
 def index():
-    return "<h1> Home Page </h1>"
+    return "<h1> Flask - Blueprint Example </h1>"
 
 # Run the app
 app.run(debug=True)
